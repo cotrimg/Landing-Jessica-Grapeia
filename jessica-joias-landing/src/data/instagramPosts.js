@@ -1,0 +1,61 @@
+export const instagramProfile = {
+  username: '@jessicagrapeiajoias',
+  url: 'https://www.instagram.com/jessicagrapeiajoias/',
+}
+
+export const instagramPosts = [
+  {
+    id: 1,
+    image: '/images/instagram/instagram-01.webp',
+    alt: 'Publicação da Jessica Grapeia Joias apresentando uma peça da coleção',
+    size: 'large',
+    type: 'product',
+    position: 'center',
+    link: instagramProfile.url,
+  },
+  {
+    id: 2,
+    image: '/images/instagram/instagram-02.webp',
+    alt: 'Publicação com uma peça da Jessica Grapeia Joias em destaque',
+    size: 'normal',
+    type: 'product',
+    position: 'center',
+    link: instagramProfile.url,
+  },
+  {
+    id: 3,
+    image: '/images/instagram/instagram-03.webp',
+    alt: 'Detalhes de uma peça publicada no Instagram da marca',
+    size: 'normal',
+    type: 'product',
+    position: 'center',
+    link: instagramProfile.url,
+  },
+  {
+    id: 4,
+    image: '/images/instagram/instagram-04.webp',
+    alt: 'Apresentação de uma peça da coleção Jessica Grapeia Joias',
+    size: 'normal',
+    type: 'product',
+    position: 'center',
+    link: instagramProfile.url,
+  },
+  {
+    id: 5,
+    image: '/images/instagram/instagram-05.webp',
+    alt: 'Retrato institucional publicado no perfil da Jessica Grapeia Joias',
+    size: 'portrait',
+    type: 'brand',
+    position: 'center',
+    link: instagramProfile.url,
+  },
+  {
+    id: 6,
+    image: '/images/instagram/instagram-06.webp',
+    alt: 'Publicação da Jessica Grapeia Joias mostrando detalhes de uma peça',
+    size: 'wide',
+    type: 'product',
+    position: 'center',
+    link: instagramProfile.url,
+  },
+]

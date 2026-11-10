@@ -1,0 +1,1042 @@
+
+
+@media (max-width: 768px) {
+  :root {
+    --mobile-page-padding: 18px;
+    --mobile-section-padding: 78px;
+    --mobile-card-radius: 24px;
+  }
+
+  html {
+    scroll-padding-top: 85px;
+  }
+
+  body {
+    min-width: 320px;
+    overflow-x: hidden;
+  }
+
+  section {
+    scroll-margin-top: 85px;
+  }
+
+  img,
+  video,
+  canvas,
+  svg {
+    max-width: 100%;
+  }
+
+  :where(
+    .hero__title,
+    .collections__title,
+    .brand-story__title,
+    .instagram__title,
+    .contact__title
+  ) {
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+  }
+
+  .header {
+    padding: 9px 10px !important;
+  }
+
+  .header--scrolled {
+    padding: 7px 10px !important;
+  }
+
+  .header__container,
+  .header--scrolled .header__container {
+    min-height: 60px !important;
+    padding: 6px 7px 6px 10px !important;
+    gap: 8px !important;
+
+    border-radius: 22px !important;
+  }
+
+  .header__brand {
+    min-width: 0;
+    gap: 7px !important;
+  }
+
+  .header__monogram,
+  .header--scrolled .header__monogram {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .header__brand-name {
+    min-width: 0;
+  }
+
+  .header__brand-name strong {
+    display: block;
+    max-width: 155px !important;
+
+    overflow: hidden;
+    font-size: 0.82rem !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .header__brand-name small {
+    display: none !important;
+  }
+
+  .header__store-link {
+    display: none !important;
+  }
+
+  .header__actions {
+    gap: 7px !important;
+  }
+
+  .header__menu-button {
+    width: 42px !important;
+    height: 42px !important;
+    flex: 0 0 42px;
+  }
+
+  .header__navigation {
+    top: calc(100% + 8px) !important;
+    right: 0 !important;
+    left: 0 !important;
+
+    gap: 2px !important;
+    padding: 12px !important;
+
+    border-radius: 20px !important;
+  }
+
+  .header__navigation a {
+    padding: 11px 13px !important;
+    font-size: 0.79rem !important;
+  }
+
+  .hero {
+    min-height: auto !important;
+    padding:
+      105px
+      var(--mobile-page-padding)
+      55px !important;
+  }
+
+  .hero__container {
+    grid-template-columns: 1fr !important;
+    gap: 34px !important;
+  }
+
+  .hero__content {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  .hero__eyebrow {
+    gap: 9px !important;
+    margin-bottom: 14px !important;
+
+    font-size: 0.59rem !important;
+    letter-spacing: 0.17em !important;
+  }
+
+  .hero__eyebrow::before {
+    width: 25px !important;
+  }
+
+  .hero__title {
+    max-width: 560px;
+
+    font-size: clamp(2.9rem, 14.5vw, 4.5rem) !important;
+    line-height: 0.91 !important;
+    letter-spacing: -0.055em !important;
+  }
+
+  .hero__description {
+    max-width: 520px !important;
+    margin-top: 20px !important;
+
+    font-size: 0.92rem !important;
+    line-height: 1.62 !important;
+  }
+
+  .hero__actions {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    gap: 10px !important;
+
+    margin-top: 25px !important;
+  }
+
+  .hero__actions .button {
+    width: 100%;
+    min-height: 49px !important;
+    padding-inline: 18px !important;
+
+    font-size: 0.77rem !important;
+  }
+
+  .hero__benefits {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    gap: 9px !important;
+
+    margin-top: 22px !important;
+    font-size: 0.7rem !important;
+  }
+
+  .hero__visual {
+    min-height: 420px !important;
+  }
+
+  .hero__image-frame {
+    width: min(76vw, 290px) !important;
+
+    border-width: 5px !important;
+    border-radius: 145px 145px 23px 23px !important;
+  }
+
+  .hero__decorative-ring {
+    width: min(104vw, 430px) !important;
+  }
+
+  .hero__mini-card {
+    top: 7% !important;
+    left: 0 !important;
+
+    width: 122px !important;
+    padding: 12px !important;
+  }
+
+  .hero__mini-card > span {
+    font-size: 1.35rem !important;
+  }
+
+  .hero__mini-card p {
+    margin-top: 6px !important;
+    font-size: 0.58rem !important;
+  }
+
+  .hero__front-card {
+    right: 0 !important;
+    bottom: 8% !important;
+
+    width: 157px !important;
+    min-height: 78px !important;
+    padding: 11px !important;
+
+    border-radius: 18px !important;
+  }
+
+  .hero__front-card-icon {
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  .hero__front-card small {
+    font-size: 0.55rem !important;
+  }
+
+  .hero__front-card strong {
+    font-size: 0.96rem !important;
+  }
+
+  .hero__spark--one {
+    top: 13% !important;
+    right: 1% !important;
+  }
+
+  .hero__spark--two {
+    bottom: 20% !important;
+    left: 0 !important;
+  }
+
+  .hero__spark--three {
+    right: 10% !important;
+    bottom: 3% !important;
+  }
+
+  .hero__background-text,
+  .hero__scroll {
+    display: none !important;
+  }
+
+  .collections {
+    padding:
+      var(--mobile-section-padding)
+      var(--mobile-page-padding) !important;
+  }
+
+  .collections__header {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+
+    margin-bottom: 42px !important;
+  }
+
+  .collections__eyebrow {
+    gap: 9px !important;
+    margin-bottom: 13px !important;
+
+    font-size: 0.61rem !important;
+    letter-spacing: 0.17em !important;
+  }
+
+  .collections__eyebrow::before {
+    width: 25px !important;
+  }
+
+  .collections__title {
+    font-size: clamp(2.8rem, 14vw, 4.3rem) !important;
+    line-height: 0.92 !important;
+  }
+
+  .collections__description {
+    max-width: 520px;
+    padding-bottom: 0 !important;
+  }
+
+  .collections__description p {
+    font-size: 0.88rem !important;
+    line-height: 1.62 !important;
+  }
+
+  .collections__all-link {
+    margin-top: 18px !important;
+    font-size: 0.68rem !important;
+  }
+
+  .collections__grid {
+    grid-template-columns: 1fr !important;
+    gap: 42px !important;
+  }
+
+  .product-card,
+  .product-card:nth-child(2),
+  .product-card:nth-child(5) {
+    grid-column: auto !important;
+    width: 100%;
+    transform: none !important;
+  }
+
+  .product-card__visual {
+    max-height: 510px;
+
+    border-radius: 145px 145px 22px 22px !important;
+  }
+
+  .product-card__number {
+    top: 18px !important;
+    left: 18px !important;
+
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .product-card__explore {
+    right: 17px !important;
+    bottom: 17px !important;
+    left: 17px !important;
+  }
+
+  .product-card__explore > span {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .product-card__content {
+    padding: 19px 4px 0 !important;
+  }
+
+  .product-card__content h3 {
+    margin-top: 7px !important;
+    font-size: 1.85rem !important;
+  }
+
+  .product-card__content p {
+    margin-top: 9px !important;
+    font-size: 0.82rem !important;
+  }
+
+  .collections__footer {
+    grid-template-columns: 1fr !important;
+    justify-items: start !important;
+    gap: 15px !important;
+
+    margin-top: 65px !important;
+  }
+
+  .collections__footer-line {
+    display: none !important;
+  }
+
+  .collections__footer p {
+    font-size: 0.9rem !important;
+  }
+
+  .collections__button {
+    width: 100%;
+    min-height: 49px !important;
+  }
+
+
+  .brand-story {
+    padding:
+      var(--mobile-section-padding)
+      var(--mobile-page-padding)
+      85px !important;
+  }
+
+  .brand-story__container {
+    grid-template-columns: 1fr !important;
+    gap: 55px !important;
+  }
+
+  .brand-story__visual {
+    min-height: 485px !important;
+  }
+
+  .brand-story__image-frame {
+    width: min(86vw, 345px) !important;
+    height: 460px !important;
+
+    border-width: 4px !important;
+    border-radius: 170px 170px 23px 23px !important;
+  }
+
+  .brand-story__seal {
+    top: 2% !important;
+    right: 0 !important;
+
+    width: 90px !important;
+    height: 90px !important;
+  }
+
+  .brand-story__seal > span {
+    font-size: 1.2rem !important;
+  }
+
+  .brand-story__seal small {
+    display: none;
+  }
+
+  .brand-story__quote {
+    right: 0 !important;
+    bottom: 0 !important;
+
+    width: 168px !important;
+    padding: 16px !important;
+
+    border-radius: 18px !important;
+  }
+
+  .brand-story__quote > span {
+    height: 25px !important;
+    font-size: 2.7rem !important;
+  }
+
+  .brand-story__quote p {
+    font-size: 0.9rem !important;
+  }
+
+  .brand-story__content {
+    padding-block: 0 !important;
+  }
+
+  .brand-story__eyebrow {
+    gap: 9px !important;
+    margin-bottom: 14px !important;
+
+    font-size: 0.61rem !important;
+  }
+
+  .brand-story__eyebrow::before {
+    width: 25px !important;
+  }
+
+  .brand-story__title {
+    font-size: clamp(2.75rem, 14vw, 4.25rem) !important;
+    line-height: 0.94 !important;
+  }
+
+  .brand-story__text {
+    margin-top: 25px !important;
+  }
+
+  .brand-story__text p {
+    font-size: 0.9rem !important;
+    line-height: 1.68 !important;
+  }
+
+  .brand-story__link {
+    margin-top: 22px !important;
+    font-size: 0.66rem !important;
+  }
+
+  .brand-story__features {
+    margin-top: 42px !important;
+  }
+
+  .brand-story__feature {
+    grid-template-columns: 36px 1fr !important;
+    gap: 11px !important;
+    padding-block: 18px !important;
+  }
+
+  .brand-story__feature h3 {
+    font-size: 1.18rem !important;
+  }
+
+  .brand-story__feature p {
+    font-size: 0.76rem !important;
+  }
+
+  .brand-story__floating-word {
+    display: none !important;
+  }
+
+
+  .instagram {
+    padding:
+      var(--mobile-section-padding)
+      var(--mobile-page-padding) !important;
+  }
+
+  .instagram__header {
+    grid-template-columns: 1fr !important;
+    gap: 21px !important;
+
+    margin-bottom: 42px !important;
+  }
+
+  .instagram__eyebrow {
+    gap: 9px !important;
+    margin-bottom: 13px !important;
+
+    font-size: 0.61rem !important;
+  }
+
+  .instagram__eyebrow::before {
+    width: 25px !important;
+  }
+
+  .instagram__title {
+    font-size: clamp(2.75rem, 14vw, 4.3rem) !important;
+    line-height: 0.93 !important;
+  }
+
+  .instagram__introduction p {
+    font-size: 0.88rem !important;
+    line-height: 1.62 !important;
+  }
+
+  .instagram__header-link {
+    margin-top: 18px !important;
+    font-size: 0.67rem !important;
+  }
+
+  .instagram__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-auto-rows: 165px !important;
+    gap: 9px !important;
+  }
+
+  .instagram-card {
+    min-height: 165px !important;
+    border-radius: 16px !important;
+  }
+
+  .instagram-card--large {
+    grid-column: span 2 !important;
+    grid-row: span 2 !important;
+  }
+
+  .instagram-card--wide {
+    grid-column: span 2 !important;
+  }
+
+  .instagram-card--portrait {
+    grid-column: span 2 !important;
+    grid-row: span 3 !important;
+  }
+
+  .instagram-card--brand {
+    min-height: 500px !important;
+    border-radius: 26px !important;
+  }
+
+  .instagram-card--brand .instagram-card__image {
+    object-fit: cover !important;
+    object-position: center center !important;
+  }
+
+  .instagram-card__number {
+    top: 11px !important;
+    left: 11px !important;
+
+    width: 32px !important;
+    height: 32px !important;
+
+    font-size: 0.56rem !important;
+  }
+
+  .instagram-card__content {
+    right: 11px !important;
+    bottom: 11px !important;
+    left: 11px !important;
+  }
+
+  .instagram-card__icon {
+    width: 36px !important;
+    height: 36px !important;
+  }
+
+  .instagram-card__action {
+    display: none !important;
+  }
+
+  .instagram-card__shade {
+    opacity: 0.18 !important;
+  }
+
+  .instagram-card__content {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .instagram__profile {
+    grid-template-columns: 1fr !important;
+    justify-items: start !important;
+    gap: 15px !important;
+
+    margin-top: 28px !important;
+    padding: 20px !important;
+
+    border-radius: 22px !important;
+  }
+
+  .instagram__avatar {
+    width: 52px !important;
+    height: 52px !important;
+  }
+
+  .instagram__profile-identity strong {
+    overflow-wrap: anywhere;
+    font-size: 0.82rem !important;
+  }
+
+  .instagram__profile > p {
+    grid-column: auto !important;
+    grid-row: auto !important;
+
+    font-size: 0.8rem !important;
+  }
+
+  .instagram__button {
+    width: 100%;
+    min-height: 49px !important;
+  }
+
+  .instagram__background-word {
+    display: none !important;
+  }
+
+
+  .contact {
+    padding:
+      0
+      var(--mobile-page-padding)
+      85px !important;
+  }
+
+  .contact__marquee {
+    width: calc(100% + 36px) !important;
+    margin-left: -18px !important;
+    margin-bottom: 70px !important;
+  }
+
+  .contact__marquee-content {
+    gap: 26px !important;
+    padding-block: 17px !important;
+
+    font-size: 1.14rem !important;
+  }
+
+  .contact__container {
+    grid-template-columns: 1fr !important;
+    gap: 52px !important;
+  }
+
+  .contact__eyebrow {
+    gap: 9px !important;
+    margin-bottom: 14px !important;
+
+    font-size: 0.61rem !important;
+  }
+
+  .contact__eyebrow::before {
+    width: 25px !important;
+  }
+
+  .contact__title {
+    font-size: clamp(2.8rem, 14vw, 4.3rem) !important;
+    line-height: 0.93 !important;
+  }
+
+  .contact__description {
+    margin-top: 21px !important;
+
+    font-size: 0.9rem !important;
+    line-height: 1.65 !important;
+  }
+
+  .contact__actions {
+    display: grid !important;
+    gap: 10px !important;
+
+    margin-top: 25px !important;
+  }
+
+  .contact__button {
+    width: 100%;
+    min-height: 49px !important;
+    padding-inline: 17px !important;
+
+    font-size: 0.76rem !important;
+  }
+
+  .contact__benefits {
+    margin-top: 42px !important;
+  }
+
+  .contact__benefit {
+    grid-template-columns: 36px 1fr !important;
+    gap: 11px !important;
+    padding-block: 18px !important;
+  }
+
+  .contact__benefit h3 {
+    font-size: 1.17rem !important;
+  }
+
+  .contact__benefit p {
+    font-size: 0.75rem !important;
+  }
+
+  .contact__visual {
+    min-height: 475px !important;
+  }
+
+  .contact__visual-frame {
+    width: min(86vw, 340px) !important;
+    height: 450px !important;
+
+    border-width: 5px !important;
+    border-radius: 170px 170px 23px 23px !important;
+  }
+
+  .contact__decorative-circle {
+    width: min(108vw, 440px) !important;
+  }
+
+  .contact__visual-card {
+    right: 0 !important;
+    bottom: 0 !important;
+
+    width: 165px !important;
+    padding: 15px !important;
+
+    border-radius: 18px !important;
+  }
+
+  .contact__visual-card p {
+    font-size: 0.93rem !important;
+  }
+
+  .footer {
+    padding:
+      70px
+      var(--mobile-page-padding)
+      24px !important;
+  }
+
+  .footer__top {
+    grid-template-columns: 1fr !important;
+    gap: 55px !important;
+  }
+
+  .footer__brand-column {
+    max-width: 100% !important;
+  }
+
+  .footer__brand {
+    gap: 12px !important;
+  }
+
+  .footer__monogram {
+    width: 65px !important;
+    height: 65px !important;
+  }
+
+  .footer__brand-name strong {
+    font-size: 1.3rem !important;
+  }
+
+  .footer__brand-name small {
+    font-size: 0.53rem !important;
+    letter-spacing: 0.14em !important;
+  }
+
+  .footer__slogan {
+    margin-top: 26px !important;
+
+    font-size: 1.65rem !important;
+    line-height: 1.15 !important;
+  }
+
+  .footer__description {
+    margin-top: 15px !important;
+
+    font-size: 0.81rem !important;
+    line-height: 1.65 !important;
+  }
+
+  .footer__social-links {
+    margin-top: 23px !important;
+  }
+
+  .footer__social-link {
+    width: 43px !important;
+    height: 43px !important;
+  }
+
+  .footer__navigation {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 42px 25px !important;
+  }
+
+  .footer__column h2 {
+    margin-bottom: 18px !important;
+    font-size: 0.61rem !important;
+  }
+
+  .footer__column nav {
+    gap: 12px !important;
+  }
+
+  .footer__column nav a {
+    font-size: 0.77rem !important;
+  }
+
+  .footer__column--contact {
+    grid-column: 1 / -1 !important;
+  }
+
+  .footer__column--contact > p {
+    font-size: 0.8rem !important;
+  }
+
+  .footer__contact-button {
+    width: 100%;
+    min-height: 49px !important;
+    margin-top: 19px !important;
+  }
+
+  .footer__divider {
+    margin-block: 55px 23px !important;
+  }
+
+  .footer__bottom {
+    grid-template-columns: 1fr !important;
+    justify-items: start !important;
+    gap: 16px !important;
+  }
+
+  .footer__bottom > p {
+    font-size: 0.63rem !important;
+  }
+
+  .footer__legal {
+    justify-content: flex-start !important;
+    gap: 14px !important;
+  }
+
+  .footer__back-to-top {
+    justify-self: start !important;
+  }
+
+  .footer__background-word {
+    display: none !important;
+  }
+
+  a,
+  button {
+    touch-action: manipulation;
+  }
+
+  .header__menu-button,
+  .footer__social-link,
+  .instagram-card__icon {
+    min-width: 42px;
+    min-height: 42px;
+  }
+}
+
+@media (max-width: 390px) {
+  :root {
+    --mobile-page-padding: 15px;
+    --mobile-section-padding: 68px;
+  }
+
+  .header__brand-name strong {
+    max-width: 120px !important;
+    font-size: 0.76rem !important;
+  }
+
+  .hero {
+    padding-top: 98px !important;
+  }
+
+  .hero__title,
+  .collections__title,
+  .brand-story__title,
+  .instagram__title,
+  .contact__title {
+    font-size: clamp(2.55rem, 14vw, 3.6rem) !important;
+  }
+
+  .hero__visual {
+    min-height: 385px !important;
+  }
+
+  .hero__image-frame {
+    width: min(77vw, 265px) !important;
+  }
+
+  .hero__mini-card {
+    width: 108px !important;
+  }
+
+  .hero__front-card {
+    width: 145px !important;
+  }
+
+  .product-card__visual {
+    border-radius: 125px 125px 20px 20px !important;
+  }
+
+  .brand-story__visual,
+  .contact__visual {
+    min-height: 430px !important;
+  }
+
+  .brand-story__image-frame,
+  .contact__visual-frame {
+    width: min(87vw, 310px) !important;
+    height: 415px !important;
+  }
+
+  .instagram__grid {
+    grid-auto-rows: 145px !important;
+  }
+
+  .instagram-card {
+    min-height: 145px !important;
+  }
+
+  .instagram-card--brand {
+    min-height: 440px !important;
+  }
+
+  .instagram__profile {
+    padding: 17px !important;
+  }
+
+  .instagram__profile-identity {
+    gap: 11px !important;
+  }
+
+  .footer__navigation {
+    grid-template-columns: 1fr !important;
+    gap: 36px !important;
+  }
+
+  .footer__column--contact {
+    grid-column: auto !important;
+  }
+
+  .footer__legal {
+    display: grid !important;
+    gap: 10px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero,
+  .collections,
+  .brand-story,
+  .instagram {
+    padding-inline: 28px !important;
+  }
+
+  .hero__container,
+  .brand-story__container,
+  .contact__container {
+    grid-template-columns: 1fr !important;
+  }
+
+  .collections__grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .product-card {
+    grid-column: auto !important;
+  }
+
+  .instagram__grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .footer__top {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+
+@media (hover: none) and (pointer: coarse) {
+  .product-card__image,
+  .instagram-card__image {
+    transform: none !important;
+  }
+
+  .product-card__overlay {
+    opacity: 0.8 !important;
+  }
+
+  .instagram-card__shade {
+    opacity: 0.2 !important;
+  }
+
+  .instagram-card__content {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .header__brand:hover .header__monogram,
+  .footer__brand:hover .footer__monogram {
+    transform: none !important;
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
